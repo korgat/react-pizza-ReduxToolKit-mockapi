@@ -1,0 +1,41 @@
+.root {
+    display: flex;
+    align-items: center;
+    .arrow {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        font-size: 30px;
+        margin-right: 10px;
+        color: #000;
+        &:hover {
+            color: #fe5f1e;
+        }
+    }
+    ul {
+        display: flex;
+    }
+    .button {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #fe5f1e;
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+        border-radius: 50%;
+        color: #000;
+        &:hover {
+            background-color: #fe5f1e;
+            color: #fff;
+        }
+    }
+    .active {
+        background-color: #fe5f1e;
+        color: #fff;
+    }
+    .disabled {
+        opacity: 0.3;
+    }
+}

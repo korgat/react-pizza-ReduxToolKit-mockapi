@@ -1,0 +1,33 @@
+.root {
+    .inputBlock {
+        position: relative;
+    }
+    input {
+        width: 400px;
+        height: 40px;
+        border-radius: 15px;
+        padding: 10px 40px;
+        font-size: 18px;
+        opacity: 0.8;
+    }
+    .searchIcon {
+        position: absolute;
+        z-index: 1;
+        width: 17px;
+        left: 12px;
+        top: 10px;
+        opacity: 0.5;
+    }
+    .closeIcon {
+        position: absolute;
+        z-index: 1;
+        width: 20px;
+        right: 10px;
+        top: 10px;
+        opacity: 0.5;
+        &:hover {
+            cursor: pointer;
+            opacity: 1;
+        }
+    }
+}
