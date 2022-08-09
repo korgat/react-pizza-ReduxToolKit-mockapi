@@ -13,7 +13,7 @@ const Header: React.FC = () => {
     return (
         <div className="header">
             <div className="container">
-                <Link to="/" className="header__logo">
+                <Link to="/react-pizza-ReduxToolKit" className="header__logo">
                     <img width="38" src={logoSvg} alt="Pizza logo" />
                     <div>
                         <h1>React Pizza</h1>
@@ -22,7 +22,7 @@ const Header: React.FC = () => {
                 </Link>
                 {pathname === '/' && <Search />}
                 <div className="header__cart">
-                    <Link to="/cart" className="button button--cart">
+                    <Link to="/react-pizza-ReduxToolKit/cart" className="button button--cart">
                         <span>{totalPrice} $</span>
                         <div className="button__delimiter"></div>
                         <svg
