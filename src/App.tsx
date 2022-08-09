@@ -11,10 +11,10 @@ function App() {
             <Header />
             <div className="content">
                 <Routes>
-                    <Route path="/react-pizza-ReduxToolKit/" element={<Home />} />
-                    <Route path="/react-pizza-ReduxToolKit/cart" element={<Cart />} />
+                    <Route path="/react-pizza-ReduxToolKit-mockapi" element={<Home />} />
+                    <Route path="/react-pizza-ReduxToolKit-mockapi/cart" element={<Cart />} />
                     <Route
-                        path="/react-pizza-ReduxToolKit/product/:id/:amount"
+                        path="/react-pizza-ReduxToolKit-mockapi/product/:id/:amount"
                         element={<ProductDetail />}
                     />
                     <Route path="*" element={<NotFound />} />

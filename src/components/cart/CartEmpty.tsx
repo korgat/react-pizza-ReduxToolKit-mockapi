@@ -14,7 +14,7 @@ const CartEmpty: React.FC = () => {
                     To order pizza, go to the main page.
                 </p>
                 <img src="/empty-cart.png" alt="Empty cart" />
-                <Link to="/react-pizza-ReduxToolKit" className="button button--black">
+                <Link to="/react-pizza-ReduxToolKit-mockapi" className="button button--black">
                     <span>Go Back</span>
                 </Link>
             </div>

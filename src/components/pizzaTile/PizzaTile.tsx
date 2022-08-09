@@ -35,7 +35,7 @@ const PizzaTile: React.FC<ProductType & { itemsInCart: number }> = ({
 
     return (
         <div className="pizza-block">
-            <Link to={'/react-pizza-ReduxToolKit/product/' + id + '/' + (itemsInCart || 0)}>
+            <Link to={'/react-pizza-ReduxToolKit-mockapi/product/' + id + '/' + (itemsInCart || 0)}>
                 <img className="pizza-block__image" src={imageUrl} alt="Pizza" />
                 <h4 className="pizza-block__title">{title}</h4>
             </Link>
